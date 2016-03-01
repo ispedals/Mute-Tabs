@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Mute Tabs",
+  "version": "1.0",
+
+  "description": "Allows muting all tabs by default",
+  "icons": {
+    "128": "icons/volume-off-indicator.svg"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "mutetabs-1111@mozilla.org",
+      "strict_min_version": "47.0"
+    }
+  },
+  
+  "background": {
+     "scripts": ["background.js"]
+  },
+  
+  "browser_action": {
+    "default_icon": "icons/volume-up-indicator.svg"
+  }
+}
