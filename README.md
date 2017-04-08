@@ -1,10 +1,10 @@
-#Mute Tabs
+# Mute Tabs
 
 Web extension that allows muting or unmuting all tabs. When enabled, new tabs will also be automatically muted.
 
 The muted property is only available to web extensions starting from Firefox 47, so this addon requires Firefox 47.0+.
 
-##License
+## License
 Mute Tabs is licensed under the MIT License, Copyright (c) 2016 ispedals
 
 The icon is from Ionicons (http://ionicons.com/), which is under the MIT License.
